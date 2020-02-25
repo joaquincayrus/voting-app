@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { PlaceholderComponent } from './components/placeholder/placeholder.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'dashboard', component: DashboardComponent },
+  { path: '', component: DashboardComponent },
+  { path: 'placeholder', component: PlaceholderComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
