@@ -14,7 +14,15 @@ this install angular cli 9
 
 ### NodeJS App
 
-#### SQLite
+on voting-app-backend folder:
+
+```unix
+npm i
+```
+
+this will install everything you need for the backend
+
+#### SQLite *required*
 
 Installation: https://www.sqlitetutorial.net/download-install-sqlite/
 
@@ -24,3 +32,11 @@ follow instructions: -for Windows install in C:\sqlite
 
 
 ### Angular App
+
+on voting-app-web folder:
+
+```unix
+npm i
+```
+
+this will install everything you need for the frontend
