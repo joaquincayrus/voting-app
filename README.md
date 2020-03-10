@@ -17,7 +17,10 @@ cd voting-app-backend
 npm i
 ```
 
-#### SQLite (required)
+this will install everything you need for the backend
+
+#### SQLite *required*
+
 
 Installation: <https://www.sqlitetutorial.net/download-install-sqlite/>
 
