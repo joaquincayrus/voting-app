@@ -2,25 +2,38 @@
 
 Open source voting app
 
-## Instalation
+## Installation
 
-on source folder:
+Necessary Node and npm
 
-```unix
-npm i
-```
+<https://www.npmjs.com/get-npm>
 
-this install angular cli 9
+made with node v10.15.3 (should be fine using LTS)
 
 ### NodeJS App
 
-#### SQLite
+```unix
+cd voting-app-backend
+npm i
+```
 
-Installation: https://www.sqlitetutorial.net/download-install-sqlite/
+#### SQLite (required)
 
-or download directly from: https://www.sqlite.org/2020/sqlite-tools-win32-x86-3310100.zip
+Installation: <https://www.sqlitetutorial.net/download-install-sqlite/>
+
+or download directly from: <https://www.sqlite.org/2020/sqlite-tools-win32-x86-3310100.zip>
 
 follow instructions: -for Windows install in C:\sqlite
 
-
 ### Angular App
+
+```unix
+cd voting-app-web
+npm i
+```
+
+## Solution Documentation
+
+Documentation necessary to implement solution is at:
+
+<https://drive.google.com/drive/folders/1QYnOOMM9_cOgYX-tGyrMak5puRvYF2Af?usp=sharing>
